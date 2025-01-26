@@ -12,7 +12,7 @@ function Header() {
       </div>
 
       <div className='sm:w-[60%] mt-5 sm:mt-10 flex flex-col items-center gap-4 sm:gap-8'>
-        <h1 className='text-white text-[30px] sm:text-7xl text-center'>Transform your words <br />into stunning <span className='font-bold text-[#7017B7]'> images </span></h1>
+        <h1 className='text-white text-[30px] sm:text-7xl max-sm:font-bold text-center'>Transform your words <br />into stunning <span className='font-bold text-[#7017B7]'> images </span></h1>
         <p className='text-[var(--text-p)] text-[8px] sm:text-base text-center sm:w-[65%]'>Unleash your creativity with AI. Turn your imagination into visual art in <br /> seconds – just type, and watch the magic happen.</p>
         <Button/>
       </div>

@@ -5,13 +5,16 @@ function Footer() {
 
     const imageSource = [
         {
-            imgSrc: "img/social-icons/Facebook.svg"
+            imgSrc: "img/social-icons/Facebook.svg",
+            alt: "Facebook"
         },
         {
-            imgSrc: "img/social-icons/Twitter.svg"
+            imgSrc: "img/social-icons/Twitter.svg",
+            alt: "Twitter"
         },
         {
-            imgSrc: "img/social-icons/Instagram.svg"
+            imgSrc: "img/social-icons/Instagram.svg",
+            alt: "Instagram"
         }
     ];
 
@@ -31,8 +34,8 @@ function Footer() {
 
       <div className="flex items-center justify-center gap-4">
         {imageSource.map((item, index) => (
-            <div className="sm:w-10 sm:h-10 w-7 h-7 flex items-center justify-center border border-[var(--border)] rounded-full cursor-pointer hover:bg-[var(--bg-hover)] transition-all" >
-            <img key={index} src={item.imgSrc} />
+            <div key={index} className="sm:w-10 sm:h-10 w-7 h-7 flex items-center justify-center border border-[var(--border)] rounded-full cursor-pointer hover:bg-[var(--bg-hover)] transition-all" >
+            <img key={index} src={item.imgSrc} alt={item.alt} />
             </div>
         ))}
       </div>
