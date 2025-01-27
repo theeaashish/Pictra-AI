@@ -8,17 +8,17 @@ import Footer from "../components/Footer";
 function Home() {
   const resources = [
     {
-      logoSrc: "./public/img/vision.svg",
+      logoSrc: "img/vision.svg",
       title: "Describe Your Vision",
       para: "Type a phrase, sentence, or paragraph that describes the image you want to create.",
     },
     {
-      logoSrc: "./public/img/magic.svg",
+      logoSrc: "img/magic.svg",
       title: "Watch the Magic",
       para: "Our AI-powered engine will transform your text into a high-quality, unique image in seconds.",
     },
     {
-      logoSrc: "./public/img/download.svg",
+      logoSrc: "img/download.svg",
       title: "Download & Share",
       para: "Instantly download your creation or share it with the world directly from our platform.",
     },

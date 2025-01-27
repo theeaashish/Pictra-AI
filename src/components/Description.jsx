@@ -17,9 +17,9 @@ function Description() {
             </div>
 
             <div className='flex flex-col sm:w-[50%] gap-4 max-sm:mt-10'>
-                <h2 className='text-white sm:text-3xl'>Introducing the AI-Powered Text to <br /> Image Generator</h2>
-                <p className='text-[var(--text-p)] text-[8px] sm:text-base'>Easily bring your ideas to life with our free AI image generator. Whether you need stunning visuals or unique imagery, our tool transforms your text into eye-catching images with just a few clicks. Imagine it, describe it, and watch it come to life instantly.</p>
-                <p className='text-[var(--text-p)] text-[8px] sm:text-base'>Simply type in a text prompt, and our cutting-edge AI will generate high-quality images in seconds. From product visuals to character designs and portraits, even concepts that don’t yet exist can be visualized effortlessly. Powered by advanced AI technology, the creative possibilities are limitless!</p>
+                <h2 className='text-white text-2xl/7 font-bold sm:text-3xl'>Introducing the AI-Powered Text to Image Generator</h2>
+                <p className='text-[var(--text-p)] text-[12px] sm:text-base'>Easily bring your ideas to life with our free AI image generator. Whether you need stunning visuals or unique imagery, our tool transforms your text into eye-catching images with just a few clicks. Imagine it, describe it, and watch it come to life instantly.</p>
+                <p className='text-[var(--text-p)] text-[12px] sm:text-base'>Simply type in a text prompt, and our cutting-edge AI will generate high-quality images in seconds. From product visuals to character designs and portraits, even concepts that don’t yet exist can be visualized effortlessly. Powered by advanced AI technology, the creative possibilities are limitless!</p>
             </div>
         </div>
 
