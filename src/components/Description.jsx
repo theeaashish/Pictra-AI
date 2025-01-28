@@ -26,7 +26,7 @@ function Description() {
         <div className='flex flex-col sm:gap-10 gap-5 items-center sm:mt-20 mb-20'>
         <h1 className='text-white mt-18 text-2xl sm:text-3xl font-semibold text-center'>See the magic. Try now</h1>
 
-        <Button/>
+        <Button text="Generate Images" />
         </div>
     </div>
   )
