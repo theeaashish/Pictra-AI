@@ -28,7 +28,7 @@ function Footer() {
           </Link>
         </div>
         <p className="text-[var(--text-p)] text-[8px] sm:text-base sm:pl-6 pl-2">
-          All right reserved. Copyright @imagify
+          All right reserved. Copyright @pictra-ai
         </p>
       </div>
 

@@ -3,7 +3,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 
 function NavBar() {
-  const { user } = useContext(AppContext);
+  const { user, setShowLogin } = useContext(AppContext);
   const navigate = useNavigate();
 
   return (
@@ -46,7 +46,7 @@ function NavBar() {
             >
               Pricing
             </p>
-            <button className="sm:text-base text-[10px] text-white font-bold border border-[var(--border)] px-6 py-1.5 rounded-lg cursor-pointer hover:bg-[var(--bg-hover)] transition-all">
+            <button onClick={() => setShowLogin(true)} className="sm:text-base text-[10px] text-white font-bold border border-[var(--border)] px-6 py-1.5 rounded-lg cursor-pointer hover:bg-[var(--bg-hover)] transition-all">
               Register
             </button>
           </div>
