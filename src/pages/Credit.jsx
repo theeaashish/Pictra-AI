@@ -27,11 +27,11 @@ function Credit() {
   ];
 
   const btnStyle = {
-    padding: "0 35px"
-  }
+    padding: "0 35px",
+  };
 
   return (
-    <div className="flex items-center justify-center min-h-[80%]">
+    <div className="flex items-center justify-center min-h-[80%] mb-20">
       <div className="flex flex-col items-center justify-between min-h-full">
         <div className="text-center mt-10 flex items-center flex-col gap-8">
           <p className="text-white text-sm border border-[var(--border)] w-[50%] py-2.5 rounded-2xl">
@@ -42,7 +42,7 @@ function Credit() {
         <div className="flex bg-[#121420] min-h-90 min-w-[65vw] rounded-2xl items-center justify-center gap-5 flex-wrap mt-10">
           {content.map((item, index) => (
             <div
-              className="flex flex-col items-center justify-center h-[320px] w-[300px] rounded-lg flex-wrap px-8 gap-10" 
+              className="flex flex-col items-center justify-center h-[320px] w-[300px] rounded-lg flex-wrap px-8 gap-10"
               key={index}
             >
               <div className="flex flex-col justify-center gap-3 px-1">
@@ -53,19 +53,15 @@ function Credit() {
                   </span>
                 </h1>
                 <h2 className="text-white text-2xl mt-5">{item.title}</h2>
-                <p className="text-white text-sm">
-                  {item.description}
-                </p>
+                <p className="text-white text-sm">{item.description}</p>
               </div>
 
-              <Button text="Get Started" style={btnStyle}/>
+              <Button text="Get Started" style={btnStyle} />
             </div>
           ))}
         </div>
       </div>
     </div>
-
-    
   );
 }
 

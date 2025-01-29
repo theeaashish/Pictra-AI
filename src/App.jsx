@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Result from './pages/Result'
 import Credit from './pages/Credit'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/result' element={<Result/>}/>
         <Route path='/buy' element={<Credit/>}/>
        </Routes>
+       <Footer/>
   </div>
   )
 }

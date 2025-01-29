@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import ImagesDiv from "../components/ImagesDiv";
 import Steps from "../components/Steps";
 import Description from "../components/description";
-import Footer from "../components/Footer";
 
 function Home() {
   const resources = [
@@ -37,7 +36,6 @@ function Home() {
         />
       ))}
       <Description/>
-      <Footer/>
     </div>
   );
 }

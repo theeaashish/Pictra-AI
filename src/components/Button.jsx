@@ -7,7 +7,7 @@ function Button({text, style}) {
   return (
     <div>
       <button
-        onClick={() => navigate("/buy")}
+        onClick={() => navigate("/result")}
         className="flex items-center shadow-[0px_0px_152px_12px_rgba(112,23,183,0.3)] text-white font-bold gap-3 bg-[var(--bg-hover)] px-6 py-3 rounded-lg cursor-pointer hover:bg-[var(--bg-btn)] transition-all duration-300"
       >
         <p className="text-white text-[10px] sm:text-base" style={style}>{text}</p>
